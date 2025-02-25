@@ -1,0 +1,14 @@
+
+.container.data-v-912b6530 {
+	padding: 20px;
+}
+.pay-btn.data-v-912b6530 {
+	background-color: #1aad19;
+	color: white;
+	font-size: 18px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	width: 200px;
+	text-align: center;
+}
+

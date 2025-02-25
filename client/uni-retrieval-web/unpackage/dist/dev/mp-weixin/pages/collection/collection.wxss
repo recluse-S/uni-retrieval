@@ -1,0 +1,32 @@
+
+.box {
+	position: relative;
+	top: 3vh;
+	width: 80%;
+	margin: 0 auto;
+}
+.container {
+	position: relative;
+	top: 20px;
+	/* display: flex; */
+	justify-content: center;
+	align-items: center;
+}
+.canvas {
+	/* 线段 */
+	height: 1px;
+	position: relative;
+	/* left: 5%; */
+	background-color: #ccc;
+}
+
+/* .collection {
+	position: relative;
+	left: 260px;
+} */
+.collection>image {
+	position: relative;
+	width: 20px;
+	height: 20px;
+}
+

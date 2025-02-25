@@ -1,0 +1,307 @@
+
+#app {
+	width: 96%;
+	margin: 0 auto;
+	top: 10px;
+}
+.logo {
+	display: flex;
+	align-items: center;
+}
+.logo-image {
+	width: 50px;
+	height: auto;
+}
+.logo-text {
+	margin-left: 30px;
+	/* 使文字紧靠图片 */
+}
+
+/* 查询结果
+*************************
+******
+*/
+.firstRes {
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+	width: 110%;
+	position: relative;
+	right: 5%;
+	margin-top: 5px;
+	padding: 0 0 20px;
+}
+.cornerBox {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 11px;
+	max-width: 60px;
+	max-height: 26px;
+	/* background-color: #feece5;
+	color: #f6542d;
+	color: #ff5733; */
+	background-color: #f6542d;
+	color: white;
+	border-bottom-left-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cornerBox>._a {
+	margin-right: 8px;
+	margin-left: 8px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.secondtRes {
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.search-result {
+	position: relative;
+	top: -20px;
+	width: 90%;
+	margin: 0 auto;
+}
+.container {
+	position: relative;
+	padding-top: 20px;
+	/* display: flex; */
+	justify-content: center;
+	align-items: center;
+}
+.canvas {
+	/* 线段 */
+	height: 1px;
+	position: relative;
+	/* left: 5%; */
+	background-color: #ccc;
+	position: relative;
+	/* width: 90%; */
+}
+.collection {
+	position: relative;
+	left: 45vh;
+	z-index: 99;
+	margin-top: 30px;
+}
+.collection>image {
+	position: relative;
+	width: 20px;
+	height: 20px;
+}
+.third-category-table {
+	font-weight: bolder;
+	font-size: 0.6rem;
+	padding: 0px 0px;
+	/* background-color: rgba(24, 186, 244, 0.2); */
+	background-color: #25579e;
+	color: black;
+	border-radius: 0px;
+	border: none;
+}
+.institution-header {
+	display: flex;
+	position: relative;
+}
+.institution-buttom {
+	position: relative;
+	margin-top: 28px;
+}
+.toggle-arrow {
+	position: absolute;
+	right: 10px;
+	height: 22px;
+	width: 66px;
+	font-size: 12px;
+	font-weight: bold;
+	border-radius: 12px 12px 12px 12px;
+	/* border: 1px solid #1787E0; */
+	border: 1px solid #25579e;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.underline {
+	text-decoration: underline;
+}
+
+/* 弹窗背景样式 */
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	/* 半透明灰色背景 */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
+}
+
+/* 弹窗内容样式 */
+.modal-content {
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 90vw;
+	/* 最大宽度限制为屏幕宽度的 90% */
+	max-height: 90vh;
+	/* 最大高度限制为屏幕高度的 90% */
+}
+
+/* 图片样式 */
+.modal-image {
+	width: 300px;
+	height: 409px;
+}
+
+/* 点击背景区域时关闭弹窗 */
+.modal[click.self] {
+	cursor: pointer;
+}
+
+/* 弹窗背景 */
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	/* 半透明背景 */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 9999;
+}
+.modal-content-pay {
+	position: relative;
+	width: 80%;
+	max-width: 500px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.modal-body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.modal-header {
+	height: 40rpx;
+	margin-left: 90%;
+}
+.close-btn {
+	background: transparent;
+	border: none;
+	font-size: 24px;
+	color: #333;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*   弹窗正文   */
+.modal-body {
+	padding-top: 40px;
+}
+.modal-message {
+	font-size: 14px;
+	color: #555;
+	margin-bottom: 20px;
+}
+.price-box {
+	width: 120px;
+	height: 120px;
+	padding: 10px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.price-title {
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+}
+.price-value {
+	font-size: 32px;
+	font-weight: bold;
+	color: #e74c3c;
+	margin-top: 10px;
+}
+
+/* 立即开通按钮 */
+.pay-btn {
+	background-color: #3498db;
+	color: white;
+	padding: 8px 0;
+	border: none;
+	border-radius: 50px;
+	/* 圆弧框 */
+	cursor: pointer;
+	font-size: 16px;
+	width: 66%;
+	max-width: 300px;
+}
+.pay-btn:hover {
+	background-color: #2980b9;
+}
+.dynamic {
+	font-size: 14px;
+	margin-left: 5px;
+	font-weight: bold;
+	background: linear-gradient(90deg, #f6542d, #ebeb41, #f6542d);
+	background-size: 200% 100%;
+	background-position: -100% 0;
+	color: transparent;
+	-webkit-background-clip: text;
+	-webkit-animation: colorWave 3s ease-in-out infinite;
+	        animation: colorWave 3s ease-in-out infinite;
+	font-style: italic;
+}
+@-webkit-keyframes colorWave {
+0% {
+		color: #f6542d;
+}
+50% {
+		color: #ebeb41;
+		/* 可以调整为其他颜色 */
+}
+100% {
+		color: #f6542d;
+}
+}
+@keyframes colorWave {
+0% {
+		color: #f6542d;
+}
+50% {
+		color: #ebeb41;
+		/* 可以调整为其他颜色 */
+}
+100% {
+		color: #f6542d;
+}
+}
+
+/* .search-result */
+

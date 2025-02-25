@@ -1,0 +1,548 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 学历选择器
+*************************
+******
+*/
+.major-container {
+	display: flex;
+	flex-wrap: wrap;
+	/* 允许换行 */
+	gap: 2px;
+	/* 设置项之间的间距 */
+	position: relative;
+	top: 10px;
+}
+.major-list {
+	position: relative;
+	top: -20px;
+}
+.education {
+	position: relative;
+	font-size: 12px;
+}
+.education .item {
+	/* margin-bottom: 10px; */
+	padding: 6px;
+}
+.education .item text {
+	color: white;
+	text-decoration: underline;
+	/* text-decoration-color: #1787E0; */
+	-webkit-text-decoration-color: #25579e;
+	        text-decoration-color: #25579e;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 6px;
+	/* 下划线与文本的垂直距离 */
+	color: inherit;
+}
+.selected2 {
+	color: #144dff;
+	/* color: #25579e; */
+}
+.selected3 {
+	color: #144dff;
+	/* color: #25579e; */
+}
+.selected4 {
+	color: #144dff;
+	/* color: #25579e; */
+}
+.selected5 {
+	color: #144dff;
+	/* color: #25579e; */
+}
+.selected6 {
+	color: #144dff;
+	/* color: #25579e; */
+}
+.custom-radio {
+	width: 12px;
+	height: 12px;
+}
+.notarize {
+	height: 34px;
+	line-height: 34px;
+	width: 150px;
+	font-size: 16px;
+	/* background-color: #1787E0; */
+	background-color: #25579e;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 0;
+	margin-top: 20px;
+}
+/* 专业选择器
+*************************
+******
+*/
+.major-list {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	top: 10px;
+	font-size: 12px;
+}
+.main-list>._ul {
+	list-style-type: none;
+}
+.main-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100%;
+}
+.first-category {
+	position: relative;
+	width: 20%;
+	/* background-color: rgba(24, 186, 244, 0.2); */
+	/* background-color: #25579e; */
+	margin-right: 2px;
+	/* padding-left: 10px; */
+	padding-top: 10px;
+	height: 360px;
+	overflow-y: auto;
+}
+.first-category>._li {
+	padding: 4px;
+}
+.first-category .active {
+	/* background-color: rgba(24, 186, 244, 0.5); */
+	background-color: #25579e;
+	color: white;
+	font-weight: bold;
+}
+.second-category {
+	position: relative;
+	width: 30%;
+	/* background-color: rgba(24, 186, 244, 0.2); */
+	/* background-color: #25579e; */
+	margin-right: 2px;
+	/* padding-left: 10px; */
+	padding-top: 10px;
+	height: 360px;
+	overflow-y: auto;
+}
+.second-category>._li {
+	padding: 4px;
+}
+.third-category {
+	position: relative;
+	width: 50%;
+	height: 360px;
+	overflow-y: auto;
+}
+.third-category>._td {
+	white-space: nowrap;
+}
+._table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.table-row {
+	display: flex;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+.table-cell {
+	text-align: center;
+	padding: 4px;
+	position: relative;
+	width: 80%;
+	/* border-right: 1px solid #ccc; */
+}
+.table-cell-1 {
+	text-align: center;
+	padding: 4px;
+	position: relative;
+	width: 80%;
+	margin-top: 10px;
+}
+.table-cell-2 {
+	text-align: center;
+	padding: 4px;
+	position: relative;
+	width: 20%;
+	/* border-right: 1px solid #ccc; */
+}
+.selected1 {
+	color: blue;
+	font-weight: bolder;
+}
+.first-category>._li.active {
+	background-color: white;
+	/* color: #17abe3; */
+	color: #25579e;
+}
+.first-category>._li.active::after {
+	content: " > ";
+	/* 箭头符号 */
+	position: absolute;
+	right: 10px;
+	/* 调整箭头位置 */
+}
+.second-category>._li.active {
+	background-color: white;
+	/* color: #17abe3; */
+	color: #25579e;
+}
+.second-category>._li.active::after {
+	content: " > ";
+	/* 箭头符号 */
+	position: absolute;
+	right: 10px;
+	/* 调整箭头位置 */
+}
+

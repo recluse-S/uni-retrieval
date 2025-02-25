@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@zxing/library": "^0.21.3",
+    "axios": "^1.7.7",
+    "jsqr": "^1.4.0",
+    "uniapp-axios-adapter": "^0.3.2",
+    "upng-js": "^2.1.0",
+    "vue-router": "^4.4.5"
+  }
+}

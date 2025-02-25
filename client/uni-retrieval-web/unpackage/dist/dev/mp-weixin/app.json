@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/home/main",
+    "pages/pageData/officialWeb",
+    "pages/catalogue/catalogue",
+    "pages/person/model",
+    "pages/test/login",
+    "pages/test/xieyi",
+    "pages/register/register",
+    "pages/index/index",
+    "pages/login/login",
+    "pages/person/center",
+    "pages/pageData/pageData",
+    "pages/collection/collection"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/main",
+        "text": "首页",
+        "iconPath": "./static/home.png",
+        "selectedIconPath": "./static/home.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "查询",
+        "iconPath": "./static/搜索.png",
+        "selectedIconPath": "./static/搜索.png"
+      },
+      {
+        "pagePath": "pages/catalogue/catalogue",
+        "text": "专业",
+        "iconPath": "./static/专业查询.png",
+        "selectedIconPath": "./static/专业查询.png"
+      },
+      {
+        "pagePath": "pages/person/center",
+        "text": "我的",
+        "iconPath": "./static/personal.png",
+        "selectedIconPath": "./static/personal.png"
+      }
+    ]
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {}
+}

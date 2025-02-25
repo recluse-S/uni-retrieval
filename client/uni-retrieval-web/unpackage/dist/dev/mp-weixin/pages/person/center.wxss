@@ -1,0 +1,170 @@
+
+Page {
+	padding-top: 85px;
+}
+#app {
+	/* background-color: #F1F5FF; */
+	width: 100%;
+	height: 100%;
+}
+.uni-container {
+	display: flex;
+	justify-content: center;
+	background-color: rgba(24, 186, 244, 0.6);
+	/* 80%淡化的颜色 */
+	position: relative;
+	width: 100%;
+	font-size: 0.8em;
+}
+
+/* 分割线 */
+.divider {
+	width: 100%;
+	height: 0.4px;
+	background-color: #ccc;
+	margin: 10px 0;
+}
+.top {
+	background-color: #fff;
+	width: 80%;
+	padding: 25rpx 25rpx;
+	border-radius: 25rpx;
+	margin: 30rpx auto;
+	display: flex;
+	margin-top: 80rpx;
+	border-bottom: 1px solid #8b8b8b;
+	background-color: #fff;
+	position: relative;
+	top: -100px;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+.line {
+	display: block;
+	margin-bottom: 10px;
+	/* 可选，调整行间距 */
+}
+.function {
+	width: 80%;
+	/* 横向排列 */
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	padding: 10px;
+	position: relative;
+	left: 8%;
+	border-radius: 10px;
+	/* 设置圆角，值可以调整 */
+	top: -100px;
+}
+.icon {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.icon image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.text {
+	flex-grow: 1;
+	font-size: 16px;
+}
+
+/* 弹窗背景 */
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	/* 半透明背景 */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 9999;
+}
+.modal-content {
+	position: relative;
+	width: 80%;
+	max-width: 500px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.modal-body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.modal-header {
+	height: 40rpx;
+	margin-left: 90%;
+}
+.close-btn {
+	background: transparent;
+	border: none;
+	font-size: 24px;
+	color: #333;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*   弹窗正文   */
+.modal-body {
+	padding-top: 40px;
+}
+.modal-message {
+	font-size: 14px;
+	color: #555;
+	margin-bottom: 20px;
+}
+.price-box {
+	width: 120px;
+	height: 120px;
+	padding: 10px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.price-title {
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+}
+.price-value {
+	font-size: 32px;
+	font-weight: bold;
+	color: #e74c3c;
+	margin-top: 10px;
+}
+
+/* 立即开通按钮 */
+.pay-btn {
+	background-color: #3498db;
+	color: white;
+	padding: 8px 0;
+	border: none;
+	border-radius: 50px;
+	/* 圆弧框 */
+	cursor: pointer;
+	font-size: 16px;
+	width: 66%;
+	max-width: 300px;
+}
+.pay-btn:hover {
+	background-color: #2980b9;
+}
+

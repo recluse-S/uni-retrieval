@@ -1,0 +1,90 @@
+
+.container {
+	padding: 20rpx;
+}
+.home {
+	position: absolute;
+	width: 10%;
+	height: 10%;
+	z-index: 99;
+}
+.title {
+	font-size: 3vh;
+	font-weight: bold;
+	margin-bottom: 20rpx;
+	/* text-align: center; */
+	font-family: '楷体';
+	color: #1787E0;
+}
+.title-2 {
+	color: #000;
+	font-size: 18px;
+	margin-bottom: 20rpx;
+	text-align: left;
+	font-weight: bold;
+}
+.table {
+	border: 1px solid #ccc;
+	border-bottom: none;
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 13px;
+}
+.row {
+	display: flex;
+	border-bottom: 1px solid #ccc;
+}
+.cell {
+	padding: 8px;
+}
+.left {
+	flex: 0 0 20%;
+	border-right: 1px solid #ccc;
+	word-break: break-word;
+	background-color: #eaeaea;
+}
+.right {
+	flex: 1;
+	padding-left: 8px;
+}
+.row:last-child .cell {
+	border-bottom: none;
+}
+.row:last-child .left {
+	border-right: none;
+}
+.theRow {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid #ccc;
+}
+.content {
+	padding: 10px;
+	line-height: 1.8;
+	text-indent: 2em;
+	margin: 0;
+}
+.wrapper {
+	top: 50px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.wepay {
+	width: 80%;
+	/* height: 30px; */
+	padding: 2px;
+	font-weight: bold;
+	color: #25579e;
+	background-color: #99ccff;
+	border: 2px solid #25579e;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
+}
+.wepay:hover {
+	background-color: #99ccff;
+}
+

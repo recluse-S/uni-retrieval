@@ -1,0 +1,213 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 容器居中 */
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	/* 使用视口高度确保垂直居中 */
+	padding: 20px;
+	box-sizing: border-box;
+}
+/* 按钮样式 */
+.login-button {
+	width: 80%;
+	padding: 10px 0;
+	border-radius: 50px;
+	/* 圆弧状 */
+	background-color: black;
+	color: white;
+	font-size: 16px;
+	margin-bottom: 20px;
+	/* 与下方内容间隔 */
+}
+/* 复选框和协议链接样式 */
+.agreement-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+}
+.agreement-label {
+	display: flex;
+	align-items: center;
+}
+.agreement-checkbox {
+	margin-right: 8px;
+	/* 调整复选框与文本的间距 */
+}
+.agreement-text {
+	margin-right: 5px;
+	/* 调整文本间距 */
+}
+.agreement-link {
+	color: blue;
+	text-decoration: underline;
+}
+

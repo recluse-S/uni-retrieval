@@ -1,0 +1,112 @@
+
+.login-page>input.data-v-891c2434 {
+	font-size: 10px;
+}
+input.data-v-891c2434::-webkit-input-placeholder {
+	font-size: 10px;
+}
+.text.data-v-891c2434 {
+	position: absolute;
+	top: 8vh;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 2vh;
+	font-weight: bolder;
+	font-size: 30px;
+}
+.container.data-v-891c2434 {
+	width: 80%;
+	height: 20vh;
+}
+.login-page.data-v-891c2434 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 60vh;
+}
+.form-control.data-v-891c2434 {
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 1vh;
+}
+.card-header.data-v-891c2434 {
+	font-weight: bolder;
+	padding: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	text-align: center;
+}
+.form-group.data-v-891c2434 {
+	margin-bottom: 15px;
+	/* font-size: 20px; */
+}
+.button-container.data-v-891c2434 {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+	padding: 10px;
+}
+.btn-primary.data-v-891c2434 {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 20px;
+	padding: 2px 20px;
+	width: 60%;
+	height: 80%;
+}
+.btn-primary.data-v-891c2434:hover {
+	background-color: #0056b3;
+}
+.btn-primary.data-v-891c2434:focus {
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
+	outline: none;
+}
+.btn-primary1.data-v-891c2434 {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 20px;
+	padding: 2px 20px;
+	width: 60%;
+	height: 70%;
+}
+.btn-primary1.data-v-891c2434:hover {
+	background-color: #0056b3;
+}
+.btn-primary1.data-v-891c2434:focus {
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
+	outline: none;
+}
+.login-link.data-v-891c2434 {
+	display: block;
+	/* 使链接成为块级元素，以便可以水平居中 */
+	text-align: center;
+	/* 水平居中对齐 */
+	text-decoration: underline;
+	/* 添加下划线 */
+	color: blue;
+	/* 设置文本颜色为蓝色 */
+	font-size: 16px;
+	/* 可选：设置字体大小 */
+}
+.error-text.data-v-891c2434 {
+	color: red;
+	font-size: 14px;
+}
+.input-button-container.data-v-891c2434 {
+	display: flex;
+	align-items: center;
+}
+.input-button-container input.data-v-891c2434 {
+	flex: 1;
+	margin-right: 10px;
+}
+.input-button-container button.data-v-891c2434 {
+	position: relative;
+	top: -10px;
+	width: auto;
+	height: 36px;
+	background-color: #17abe3;
+}
+
